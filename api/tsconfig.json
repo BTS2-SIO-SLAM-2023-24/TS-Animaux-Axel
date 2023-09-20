@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    // Version ECMAScript cible : Spécifie la version JavaScript cible (ex. : ES6, ES5) et ESNext pour la dernière version.
+    "target": "ESNext",
+    // Module de sortie : Spécifie comment les modules seront générés dans le code JavaScript (ex. : CommonJS, AMD, ES6).
+    "module": "CommonJS",
+    // Dossier de sortie : Où seront générés les fichiers JavaScript transpilés.
+    "outDir": "./dist",
+    // Dossier racine : Dossier de base où TypeScript cherchera les fichiers sources.
+    "rootDir": "./src",
+    // Activation du mode strict : Active ou désactive le mode strict qui impose des règles de vérification de types plus strictes.
+    "strict": true,
+    // Vérification stricte de la nullabilité : Applique des vérifications strictes pour les valeurs null et undefined.
+    "strictNullChecks": true,
+    /* Autres options globales */
+  },
+  "include": ["src/**/*.ts"], // Liste des fichiers sources inclus dans la compilation
+  "exclude": ["node_modules"]  // Liste des fichiers ou dossiers exclus de la compilation
+}
